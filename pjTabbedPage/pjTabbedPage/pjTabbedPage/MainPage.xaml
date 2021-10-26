@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+            xmlns:local="clr-namespace:pjTabbedPage"
+            mc:Ignorable="d"
+             x:Class="pjTabbedPage.MainPage">
+
+    <ContentPage Title="Página Inicial">
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+        <!-- Place new controls here -->
+            <Label Text="Página Incial" FontSize="30" 
+           HorizontalOptions="Center"/>
+
+            <Image Source="galudo.png"/>
+        </StackLayout>
+    </ContentPage>
+    
+    <local:Page1 Icon="galudo.png"/>
+
+    <local:Page2 Title="Pagina 1" Icon="galudo.png"/>
+
+    <ContentPage Title="Página Inicial">
+    <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+        <!-- Place new controls here -->
+        <Label Text="Página Incial" FontSize="30" 
+           HorizontalOptions="Center"/>
+
+        <Image Source="galudo.png"/>
+    </StackLayout>
+    </ContentPage>
+
+</TabbedPage>
